@@ -1,4 +1,4 @@
-git add{
+{
     "name": "yumei/tests",
     "autoload": {
         "psr-4": {
