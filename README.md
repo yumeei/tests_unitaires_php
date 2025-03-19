@@ -56,10 +56,10 @@ vendor/bin/phpunit --testdox tests
 ## Résulat des tests
 
 ```sh
-Type de Test	          Outil    	  Statut
-Tests unitaires	        PHPUnit	    ✅ OK
-Tests E2E	              Selenium	  ✅ OK
-Tests de charge	        JMeter	    ✅ OK
+Type de Test	          Outil    	    Statut
+Tests unitaires	          PHPUnit	    ✅ OK
+Tests E2E	          Selenium	    ✅ OK
+Tests de charge	          JMeter	    ✅ OK
 ```
 
 ## Améliorations futures
@@ -69,3 +69,4 @@ Optimiser les performances pour gérer un nombre d’utilisateurs plus élevé.
 Ajouter une base de données pour la persistance des tâches
 Automatiser le déploiement avec CI/CD
 
+Rapport de validation: https://docs.google.com/document/d/10AS7alcnS9GJPg2dSo2YC_3MKvb3Lfkfh0suGH4c9vE/edit?tab=t.0
