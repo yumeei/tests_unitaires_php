@@ -1,0 +1,11 @@
+git add{
+    "name": "yumei/tests",
+    "autoload": {
+        "psr-4": {
+            "Yumei\\Tests\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.0"
+    }
+}
