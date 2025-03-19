@@ -1,21 +1,21 @@
-# 📋 Gestion de Tâches - Tests Automatisés
+# Gestion de Tâches - Tests Automatisés
 
 Ce projet est une application de gestion de tâches avec des tests automatisés utilisant **PHPUnit, Selenium, Cypress et JMeter/k6**. Il permet d'ajouter, supprimer et récupérer des tâches tout en assurant la qualité du code grâce aux tests unitaires, end-to-end et de performance.
 
 -----
 
-## 🚀 Fonctionnalités
+## Fonctionnalités
 
-✅ Ajouter une tâche  
-✅ Supprimer une tâche  
-✅ Récupérer une tâche spécifique  
-✅ Exécuter des tests unitaires avec **PHPUnit**  
-✅ Tester l'interface utilisateur avec **Selenium & Cypress**  
-✅ Simuler des charges utilisateur avec **JMeter/k6**  
+- Ajouter une tâche
+- Supprimer une tâche  
+- Récupérer une tâche spécifique  
+- Exécuter des tests unitaires avec **PHPUnit**  
+- Tester l'interface utilisateur avec **Selenium & Cypress**  
+- Simuler des charges utilisateur avec **JMeter/k6**  
 
 -----
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 - **PHP 8.4.4** - Langage backend  
 - **PHPUnit** - Tests unitaires  
@@ -25,9 +25,32 @@ Ce projet est une application de gestion de tâches avec des tests automatisés 
 
 -----
 
-## 📦 Installation
+## Installation
 
-### 1️⃣ Cloner le projet
+### 1. Cloner le projet
 ```sh
 git clone https://github.com/votre-utilisateur/gestion-taches.git
 cd gestion-taches
+
+```
+
+### 2. Installer les dépendances PHP
+```sh
+composer install
+```
+
+### 3. Configurer Selenium
+
+### 4. Installer JMeter
+JMeter : https://jmeter.apache.org/download_jmeter.cgi
+
+## Éxécution des tests
+
+### Tests unitaires avec PHPUnit
+```sh
+php ./vendor/bin/phpunit tests
+OU
+vendor/bin/phpunit --testdox tests
+```
+
+
