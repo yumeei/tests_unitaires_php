@@ -53,4 +53,19 @@ OU
 vendor/bin/phpunit --testdox tests
 ```
 
+## Résulat des tests
+
+```sh
+Type de Test	          Outil    	  Statut
+Tests unitaires	        PHPUnit	    ✅ OK
+Tests E2E	              Selenium	  ✅ OK
+Tests de charge	        JMeter	    ✅ OK
+```
+
+## Améliorations futures
+
+Améliorer l’interface utilisateur pour une meilleure expérience.
+Optimiser les performances pour gérer un nombre d’utilisateurs plus élevé.
+Ajouter une base de données pour la persistance des tâches
+Automatiser le déploiement avec CI/CD
 
