@@ -29,7 +29,7 @@ Ce projet est une application de gestion de tâches avec des tests automatisés 
 
 ### 1. Cloner le projet
 ```sh
-git clone https://github.com/votre-utilisateur/gestion-taches.git
+git clone https://github.com/yumeei/gestion-taches.git
 cd gestion-taches
 
 ```
